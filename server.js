@@ -1,7 +1,7 @@
 const { animals } = require("./data/animals.json");
 const express = require("express");
 const { readFileSync } = require("fs");
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 const app = express();
 
 function filterByQuery(query, animalsArray) {
